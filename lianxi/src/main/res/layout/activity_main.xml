@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="test.bwie.com.lianxi.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a4h"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/countDownView"
+        android:layout_toEndOf="@+id/countDownView"
+        android:layout_marginTop="13dp" />
+
+    <test.bwie.com.lianxi.CountDownView
+        android:id="@+id/countDownView"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+
+
+</RelativeLayout>
